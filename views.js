@@ -16,7 +16,7 @@ View.prototype = {
         x: "x",
         y: "y", 
         z: "z", 
-        scale: "scaleFactor"
+        scaleFactor: "scaleFactor"
     },
 
     addChild: function (child) {
@@ -65,7 +65,7 @@ View.prototype = {
     },
 
     scale: function (scale) {
-        scale = Math.max(Math.min(1, scale), 0);
+        scale = Math.max(scale, 0);
         this.modifyProperty("scaleFactor", scale);
     },
 

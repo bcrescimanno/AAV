@@ -1,0 +1,3 @@
+Dabbling with asynchronous views for webkit; it's all pretty hacked together right now.
+
+Basically an attempt to let you modify whatever properties you want whenever you want and still only trigger a max of one paint per view per thread.  There's a lot that can be done to optimize; this is really just a toy at the moment.
